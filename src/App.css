@@ -1,0 +1,160 @@
+body{
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(0deg,#8cace5,#365486, #0F1035);
+	background-size: 500% 100%;
+}
+.container {
+	border-radius: 25px;
+	color:white;
+	height: 650px;
+}
+.weatherSide{
+	position: relative;
+	height: 100%;
+	border-radius: 25px;
+  	background-color: #4a6ba5;
+	width: 400px;
+	float: left;
+}
+.weatherSide:hover {
+	transform: scale(1.1) ;
+	transition: 1s;
+	background: linear-gradient(0deg,#DCF2F1, #7FC7D9, #4a6ba5);
+	background-size: 200% 200%;
+}
+
+.date-container {
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+.date-dayname {
+	margin: 0px ;
+}
+.date-day {
+	margin: 0px;
+}
+.location {
+	margin: 0px;
+}
+.icon{
+	position: absolute;
+	bottom: 1px;
+	left: 10px;
+}
+.sun{
+	position: absolute;
+	top: 180px;
+	left: 60px;
+}
+.sun:hover{
+	transform: rotate(360deg);
+	transition: 3s;
+
+}
+.weather-container {
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+}
+.weather-temp {
+	margin: 0;
+	width: 200px;
+	font-weight: 700;
+	font-size: 4em;
+}
+.weather-desc {
+	margin-left: 70px;
+	
+}
+.unit{
+	font-size: 30px;
+}
+.info-side {
+	position: relative;
+	height: 100%;
+	border-radius: 25px;
+  	background-color: #4a6ba5;
+	width: 680px;
+	float: right;
+	margin-left: 50px;
+}
+.info-top{
+	position: relative;
+	top: 190px;
+}
+.box1{
+	position: absolute;
+	top: 60px;
+	left: 40px;
+	margin: 0;
+	width: 200px;
+	font-weight: 700;
+	font-size: 25px;
+}
+.box1-temp{
+	position: absolute;
+	left: 40px;
+	margin: 0;
+	width: 200px;
+	font-size: 3em;
+}
+.box2{
+	position: absolute;
+	top: 60px;
+	left: 250px;
+	margin: 0;
+	width: 200px;
+	font-weight: 700;
+	font-size: 25px;
+}
+.box2-temp{
+	position: absolute;
+	left: 250px;
+	margin: 0;
+	width: 200px;
+	font-size: 3em;
+}
+.box3{
+	position: absolute;
+	top: 60px;
+	left: 470px;
+	margin: 0;
+	width: 200px;
+	font-weight: 700;
+	font-size: 25px;
+}
+.box3-temp{
+	position: absolute;
+	left: 470px;
+	margin: 0;
+	width: 200px;
+	font-size: 3em;
+}
+.info-bottom{
+	position: relative;
+	top: 500px;
+}
+.infoIcon{
+	position: absolute;
+	bottom: 10px;
+}
+.infoIcon:hover{
+	transform: scale(1.1);
+	transition: 15ms;
+}
+.icon1{
+	left:35px;
+}
+.icon2{
+	left: 260px;
+}
+.icon3{
+	right: 100px;
+}

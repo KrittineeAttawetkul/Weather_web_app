@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": 100.54,
+        "lat": 13.74
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 31.48,
+        "feels_like": 33.88,
+        "temp_min": 30.88,
+        "temp_max": 32.87,
+        "pressure": 1005,
+        "humidity": 52,
+        "sea_level": 1005,
+        "grnd_level": 1002
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5.46,
+        "deg": 239,
+        "gust": 6.44
+    },
+    "clouds": {
+        "all": 95
+    },
+    "dt": 1717749340,
+    "sys": {
+        "type": 1,
+        "id": 9235,
+        "country": "TH",
+        "sunrise": 1717714174,
+        "sunset": 1717760649
+    },
+    "timezone": 25200,
+    "id": 7026842,
+    "name": "Pathum Wan",
+    "cod": 200
+}
