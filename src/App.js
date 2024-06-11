@@ -62,7 +62,7 @@ const App = () => {
                             {Math.ceil(!!infos.main ? infos.main.temp : null)} °C
                         </div>
                         <div className='icon'>
-                            <img src={!!infos.weather && `http://openweathermap.org/img/w/${infos.weather[0].icon}.png`} width={50} height={50} />
+                            <img src={!!infos.weather && `http://openweathermap.org/img/w/${infos.weather[0].icon}.png`} width={50} height={50} alt='weather'/>
                         </div>
                         <div className='weather-desc'>
                             <h2>{!!infos.weather ? infos.weather[0].description : null}</h2>
@@ -72,7 +72,7 @@ const App = () => {
                 <div className='info-side'>
                     <div className='info-top'>
                         <div className='infoIcon icon1'>
-                            <img width={100} height={100} src={temp} />
+                            <img width={100} height={100} src={temp} alt='temp' />
                         </div>
                         <div className='box1-temp'>
                             {Math.ceil(!!infos.main ? infos.main.feels_like : null)}
@@ -82,7 +82,7 @@ const App = () => {
                             Feel Like
                         </div>
                         <div className='infoIcon icon2'>
-                            <img width={100} height={100} src={min} />
+                            <img width={100} height={100} src={min} alt='min' />
                         </div>
                         <div className='box2-temp'>
                             {Math.ceil(!!infos.main ? infos.main.temp_min : null)}
@@ -92,7 +92,7 @@ const App = () => {
                             Min Temp
                         </div>
                         <div className='infoIcon icon3'>
-                            <img width={100} height={100} src={max} />
+                            <img width={100} height={100} src={max} alt='max'/>
                         </div>
                         <div className='box3-temp'>
                             {Math.ceil(!!infos.main ? infos.main.temp_max : null)}
@@ -104,7 +104,7 @@ const App = () => {
                     </div>
                     <div className='info-bottom'>
                         <div className='infoIcon icon1'>
-                            <img width={100} height={100} src={humidity} />
+                            <img width={100} height={100} src={humidity} alt='humidity'/>
                         </div>
                         <div className='box1-temp'>
                             {!!infos.main ? infos.main.humidity : null}
@@ -114,7 +114,7 @@ const App = () => {
                             Humidity
                         </div>
                         <div className='infoIcon icon2'>
-                            <img width={100} height={100} src={wind} />
+                            <img width={100} height={100} src={wind} alt='wind' />
                         </div>
                         <div className='box2-temp'>
                             {!!infos.wind ? infos.wind.speed : null}
@@ -124,7 +124,7 @@ const App = () => {
                             Wind
                         </div>
                         <div className='infoIcon icon3'>
-                            <img width={100} height={100} src={pressure} />
+                            <img width={100} height={100} src={pressure} alt='pressure'/>
                         </div>
                         <div className='box3-temp'>
                             {!!infos.main ? infos.main.pressure : null}
